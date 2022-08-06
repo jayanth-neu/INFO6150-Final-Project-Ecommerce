@@ -67,7 +67,7 @@ const Checkout = ({history}) => {
 
                     <div className="payment-check">
                         <h1>Payment Method</h1>
-                       
+                       <div className='displayNode'></div>
                         <input onChange = {(e)=> {setcarddetails(true) ; setPayment('card')}} checked = {carddetails}  type="radio" name="payment" id="card"/><label for="card" className="this-label">Credit Card</label>
                         <div className="accept-cards-imgs">
                             <Image src="https://i.imgur.com/AHCoUZO.png" alt="visa"/>

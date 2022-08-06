@@ -11,6 +11,8 @@ import { getOrderDetails, payOrder,deliverOrder } from "../../actions/orderActio
 import './Order.css'
 import { ORDER_PAY_RESET,ORDER_DELIVER_RESET } from '../../constants/orderConstants';
 import { Button } from '@chakra-ui/button';
+
+
 const Order = ({match,history}) => {
     const [sdkReady, setsdkReady] = useState(false)
     const orderId = match.params.id
@@ -62,6 +64,8 @@ const Order = ({match,history}) => {
                 setsdkReady(true)
             }
         }
+      
+
         
     }, [dispatch,orderId,successPay,orderPay,successDeliver,userInfo])
     const successpaymenthandler = (paymentResult) =>{
@@ -102,7 +106,7 @@ const Order = ({match,history}) => {
                     <p>
                         <strong>Method: </strong>
                         {order.paymentMethod}
-                        {order.isPaid ? <div className = 'paid'>PAID AT {order.paidAt}</div> : <div className = 'notpaid'>NOT PAID YET</div>}
+                        {order.isPaid ? <div className = 'paid'>PAID AT {order.paidAt}</div>: <div className = 'notpaid'>NOT PAID YET</div>}
                     </p>
                 </div>
                       <hr className= 'hr' />

@@ -12,7 +12,7 @@ const Home = () => {
     return (
         <>
         <Helmet>
-            <title>EAST CLOTHING</title>
+            <title>LIFESTYLE CLOTHING</title>
         </Helmet>
              <div>
                 <Slider/>
@@ -22,7 +22,7 @@ const Home = () => {
                          <Cardscg title='Accessoires'/>                
                  </div>
                 <CgDiv/>
-                <ProductsC/>
+               
         </div>
         </>
     )

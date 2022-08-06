@@ -82,9 +82,9 @@ import Searchnav from './Searchnav';
         useEffect(() => {
             const cart = cartItems.length ? cartItems.length : 0 ;
             setincart(cart);
-            return () => {
-                setincart(0)
-            }
+            // return () => {
+            //     setincart(0)
+            // }
         },[cart])
 
 
@@ -98,7 +98,7 @@ import Searchnav from './Searchnav';
     
     return (
        <nav ref = {Nav}  className={`nav ${nav ? 'active' : ''}`} >
-           <div className="logo"><Link to =''>EAST CLOTHING</Link></div>
+           <div className="logo"><Link to =''>LIFESTYLE CLOTHING</Link></div>
             <ul className="navLinks" ref= {navLinks}>
                 <NavLink to="/" exact  activeClassName='activlink' ><li>Home</li></NavLink>
                 <NavLink to="/shop" activeClassName='activlink' ><li>Shop</li></NavLink>
@@ -120,8 +120,7 @@ import Searchnav from './Searchnav';
                 { !showSearchIc && <MdSearch className='iconSearch' size='26' onClick={onSeacrhFun}/>  }
                 <Link to='/cart' > <RiShoppingCart2Line className='iconCart' size='26' />
                 {userInfo && !userInfo.isAdmin && 
-                <div className='dotcart'>
-                    {incart}
+                <div className=''>
                 </div>
                 }
 
