@@ -31,20 +31,24 @@
   transform: translateX(30px);
   opacity: 1;
 }
-.Content1,
-.Content2 {
+.Content1{
+  grid-template-columns: 65% 35%;
   text-align: justify;
   display: grid;
   column-gap: 60px;
   row-gap: 30px;
   font-weight: 500;
-  margin: 190px 70px;
+  margin: 190px 70px 0px 70px;
 }
-.Content1 {
-  grid-template-columns: 65% 35%;
-}
+
 .Content2 {
-  grid-template-columns: 35% 65%;
+  grid-template-columns: 65% 35%;
+  text-align: justify;
+  display: grid;
+  column-gap: 60px;
+  row-gap: 30px;
+  font-weight: 500;
+  margin: 120px 70px;
 }
 .Imageabt {
   width: 400px;
