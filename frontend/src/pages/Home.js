@@ -19,7 +19,7 @@ const Home = () => {
                  <div className="cards">
                          <Cardscg title='Women'/>
                          <Cardscg title='Men'/>
-                         <Cardscg title='Accessoires'/>                
+                         <Cardscg title='Accessories'/>                
                  </div>
                 <CgDiv/>
                
