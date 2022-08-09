@@ -1,4 +1,5 @@
-import React from "react";
+import React, { useState } from "react";
+
 import {
   FiFacebook,
   AiOutlineHeart,
@@ -9,9 +10,29 @@ import { Input, Stack, Button } from "@chakra-ui/react";
 import "./footercss.css";
 import { Link } from "react-router-dom";
 
-const handleSubscribe = () => {};
-
 const Footer = () => {
+  const [email, setemail] = useState("");
+
+  let isEmail = false;
+
+  function ValidateEmail(email) {
+    console.log("In validation");
+    if (/^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/.test(email)) {
+      isEmail = true;
+    }
+  }
+
+  function handleSubscribe() {
+    console.log("In handlesubs");
+    ValidateEmail(email);
+    console.log(isEmail);
+    if (isEmail == true) {
+      alert("You have successfully subscribed");
+    } else {
+      alert("Please enter a valid email");
+    }
+  }
+
   return (
     <div className="footerCmp">
       <footer>
@@ -69,15 +90,15 @@ const Footer = () => {
             <li>
               <Stack spacing={3}>
                 <Input
-                  variant="flushed"
-                  placeholder="email@example.com"
-                  size="10"
-                  width="200px"
+                  value={email}
+                  onChange={(e) => setemail(e.target.value)}
+                  type="text"
+                  placeholder="Your Email Address"
                 />
               </Stack>
             </li>
             <li>
-              <Button onclick={handleSubscribe} className="footerBtn">
+              <Button onClick={handleSubscribe} className="footerBtn">
                 Subscribe
               </Button>
             </li>
