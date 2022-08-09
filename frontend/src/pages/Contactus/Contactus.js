@@ -57,7 +57,7 @@ const Contactus = () => {
                 <title>Contact</title>
             </Helmet>
             <div className="headerContact">
-
+            
                 <div className="text">
                 </div>
             </div>
@@ -82,21 +82,21 @@ const Contactus = () => {
                         <div className="iconCtn"><GiPositionMarker opacity="0.8" /></div>
                         <div className="adressCtn">
                             <h3> Address</h3>
-                            <p className="infoCtn">124 Brook street, Boston, MA, 02116</p>
+                            <p className="infoCtn">124 Brook street, Brookline, Boston, MA, 02443</p>
                         </div>
                     </div>
                     <div className="box">
                         <div className="iconCtn"><HiOutlinePhone opacity="0.8" /></div>
                         <div className="adressCtn">
                             <h3>Lets Talk</h3>
-                            <p className="infoCtn">(857)345-8097</p>
+                            <p className="infoCtn"><a href="tel:+1(857)345-8097"> +1 (857) 345-8097 </a></p>
                         </div>
                     </div>
                     <div className="box">
                         <div className="iconCtn"><BsEnvelope opacity="0.8" /></div>
                         <div className="adressCtn">
                             <h3>Sale Support</h3>
-                            <p className="infoCtn">lifestylefashion@gmail.com</p>
+                            <p className="infoCtn"><a href = "mailto: lifestylefashion@gmail.com">lifestylefashion@gmail.com</a></p>
                         </div>
                     </div>
                 </div>

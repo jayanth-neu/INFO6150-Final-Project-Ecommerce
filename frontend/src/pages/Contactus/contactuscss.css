@@ -1,6 +1,6 @@
 .contactUs {
   position: relative;
-  top: 70px;
+  top: 20px;
   flex-wrap: wrap;
   margin-bottom: 130px;
 }
@@ -40,7 +40,7 @@
 .sendMsg {
   display: block;
   border-right: 1px solid teal;
-  padding: 30px 60px;
+  padding: 70px 60px;
   width: 50%;
 }
 .envolope {
