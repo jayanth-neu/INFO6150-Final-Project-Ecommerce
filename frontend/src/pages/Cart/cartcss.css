@@ -72,7 +72,7 @@
 }
 .imagecart {
   display: flex;
-  height: 190px;
+  height: 98%;
   overflow: hidden;
   justify-content: center;
 }
@@ -123,6 +123,7 @@
 .productsoncart {
   width: 100%;
 }
+
 @media screen and (max-width: 768px) {
   .productcart {
     margin: 10px 0;
@@ -138,4 +139,13 @@
   .cartfull {
     grid-template-columns: 1fr;
   }
+  .totalcart {
+    margin-left:20px;
+    margin-right:20px;
+  }
+  .cart {
+    margin-left:20px;
+    margin-right:20px;
+  }
+
 }

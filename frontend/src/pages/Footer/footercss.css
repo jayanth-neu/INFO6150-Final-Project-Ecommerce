@@ -105,7 +105,7 @@ footer .paragraphFooter {
   height: 30px;
   border-radius: 10%;
   margin-right: 3px;
-  cursor: pointer;
+  cursor:context-menu;
 }
 
 @media screen and (max-width: 768px) {
