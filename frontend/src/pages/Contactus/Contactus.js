@@ -54,6 +54,16 @@ const Contactus = () => {
       alert("Please enter message");
     }
   };
+  // <div className="contactUs">
+  //     <Helmet>
+  //         <title>Contact</title>
+  //     </Helmet>
+
+  // <div className="headerContact">
+  //     <div className="text">
+  //     </div>
+
+  // </div>
 
   return (
     <div className="contactUs">
@@ -117,30 +127,34 @@ const Contactus = () => {
             <div className="iconCtn">
               <GiPositionMarker opacity="0.8" />
             </div>
-            <div className="adressCtn">
-              <h3> Address</h3>
-              <p>
-                Coza Store Center 8th floor, 379 Hudson St, New York, NY 10018
-                US
-              </p>
-            </div>
-          </div>
-          <div className="box">
-            <div className="iconCtn">
-              <HiOutlinePhone opacity="0.8" />
-            </div>
-            <div className="adressCtn">
-              <h3>Lets Talk</h3>
-              <p className="infoCtn">0657964665</p>
-            </div>
-          </div>
-          <div className="box">
-            <div className="iconCtn">
-              <BsEnvelope opacity="0.8" />
-            </div>
-            <div className="adressCtn">
-              <h3>Sale Support</h3>
-              <p className="infoCtn">Store@gmail.com</p>
+            <div className="showAdrss">
+              <div className="box">
+                <div className="iconCtn">
+                  <GiPositionMarker opacity="0.8" />
+                </div>
+                <div className="adressCtn">
+                  <h3> Address</h3>
+                  <p className="infoCtn">124 Brook street, Boston, MA, 02116</p>
+                </div>
+              </div>
+              <div className="box">
+                <div className="iconCtn">
+                  <HiOutlinePhone opacity="0.8" />
+                </div>
+                <div className="adressCtn">
+                  <h3>Lets Talk</h3>
+                  <p className="infoCtn">(857)345-8097</p>
+                </div>
+              </div>
+              <div className="box">
+                <div className="iconCtn">
+                  <BsEnvelope opacity="0.8" />
+                </div>
+                <div className="adressCtn">
+                  <h3>Sale Support</h3>
+                  <p className="infoCtn">lifestylefashion@gmail.com</p>
+                </div>
+              </div>
             </div>
           </div>
         </div>

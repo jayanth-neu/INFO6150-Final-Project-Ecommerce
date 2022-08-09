@@ -11,6 +11,7 @@
   margin: 0;
   box-sizing: border-box;
   font-family: "Poppins", sans-serif;
+ 
 }
 .Productdetails {
   width: 100%;
@@ -413,8 +414,8 @@ nav {
 .filters ul {
   display: grid;
   width: 100%;
-  grid-template-columns: repeat(6, minmax(60px, 90px));
-  font-size: 15px;
+  grid-template-columns: repeat(4, minmax(60px, 90px));
+  font-size: 14px;
   font-weight: 600;
 }
 .filtersbtn {

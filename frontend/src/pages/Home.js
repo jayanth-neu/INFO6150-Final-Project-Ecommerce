@@ -12,7 +12,7 @@ const Home = () => {
     return (
         <>
         <Helmet>
-            <title>LIFESTYLE CLOTHING</title>
+            <title>LIFESTYLE FASHION</title>
         </Helmet>
              <div>
                 <Slider/>
