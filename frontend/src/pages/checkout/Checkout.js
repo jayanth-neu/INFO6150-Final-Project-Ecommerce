@@ -63,10 +63,12 @@ const Checkout = ({ history }) => {
                   variant="flushed"
                   onChange={(e) => setCountry(e.target.value)}
                 >
-                  <option value="Maroc">Maroc</option>
-                  <option value="Algerie">Algerie</option>
-                  <option value="France">France</option>
-                  <option value="Espagne">Espagne</option>
+                  <option value="United States">
+                    United States of America
+                  </option>
+                  <option value="India">India</option>
+                  <option value="Spain">Spain</option>
+                  <option value="Argentina">Argentina</option>
                 </Select>
               </Stack>
               <div className="city-cp-check">
