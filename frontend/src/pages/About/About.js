@@ -46,7 +46,7 @@ const About = () => {
 
                 <div className='imagecontainer'>
                     <div className='Imageabt'>
-                        <Image className='mImage' boxSize='400px' objectFit="cover" src='https://images.unsplash.com/photo-1614771637369-ed94441a651a?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=334&q=80' alt="Segun Adebayo" />
+                        <Image className='mImage' boxSize='350px' objectFit="cover" src='https://images.unsplash.com/photo-1614771637369-ed94441a651a?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=334&q=80' alt="Segun Adebayo" />
                     </div>
                 </div>
             </div>
@@ -56,7 +56,7 @@ const About = () => {
             <div className='Content2'>
                 <div className='text'>
                 <h1>
-                        How?
+                        Customer Centric
                     </h1>
                     <p>
                         Our Company believes that the customers must be able to see latest fashion trends through Catwalks, Silhouettes, Concepts , Swatches etc. To make this happen with ease we have dedicated expert designers with excellent style sense working with us every season. To enhance our designs and keep up with the latest fashion trends across the world we keep visiting all the fashion Capitals and Exhibitions across the nation and world.The head office of the Company is located on the above mentioned address which comprises of dedicated Showroom, Sampling unit, Production and Centralized Store for all fabrics & trim, with Cutting and Finishing of our valued end product.
@@ -67,7 +67,7 @@ const About = () => {
 
                 <div className='imagecontainer'>
                     <div className='Imageabt'>
-                        <Image className='mImage' boxSize='400px' objectFit="cover" src='https://images.unsplash.com/photo-1614038276039-667c23bc32fa?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=389&q=80' alt="Segun Adebayo" />
+                        <Image className='mImage' boxSize='350px' objectFit="cover" src='https://images.unsplash.com/photo-1614038276039-667c23bc32fa?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=389&q=80' alt="Segun Adebayo" />
                     </div>
                 </div>
             </div>

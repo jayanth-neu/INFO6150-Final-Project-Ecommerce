@@ -84,11 +84,44 @@
 @media screen and (max-width: 768px) {
   .Content1,
   .Content2 {
-    margin: 190px 30px;
+    margin: 170px 0px;
     grid-template-columns: 1fr;
   }
   .imagecontainer::after {
     bottom: 380px;
     left: 30px;
   }
+  .imagecontainer {
+    height: 200px;
+    width: 200px;
+  }
+  .text {
+    margin: 0px 20px 0px 20px;
+  }
+  img {
+    margin:0px 10px 0px 20px;
+  }
+}
+
+@media screen and (max-width: 820px) {
+  .Content1,
+  .Content2 {
+    margin: 170px 0px;
+    grid-template-columns: 1fr;
+  }
+  .imagecontainer::after {
+    bottom: 380px;
+    left: 30px;
+  }
+  .imagecontainer {
+    height: 200px;
+    width: 200px;
+  }
+  .text {
+    margin: 0px 20px 0px 20px;
+  }
+  img {
+    margin:0px 10px 0px 20px;
+  }
+
 }

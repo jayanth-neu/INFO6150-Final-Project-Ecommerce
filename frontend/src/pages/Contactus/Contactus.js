@@ -89,14 +89,14 @@ const Contactus = () => {
                         <div className="iconCtn"><HiOutlinePhone opacity="0.8" /></div>
                         <div className="adressCtn">
                             <h3>Lets Talk</h3>
-                            <p className="infoCtn"><a href="tel:+1(857)345-8097"> +1 (857) 345-8097 </a></p>
+                            <p className="infoCtn"><a href="tel:+1(857)345-8097"> +1 (857)345-8097 </a></p>
                         </div>
                     </div>
                     <div className="box">
                         <div className="iconCtn"><BsEnvelope opacity="0.8" /></div>
                         <div className="adressCtn">
                             <h3>Sale Support</h3>
-                            <p className="infoCtn"><a href = "mailto: lifestylefashion@gmail.com">lifestylefashion@gmail.com</a></p>
+                            <p className="infoCtn"><a href = "mailto: lifestylefashion@gmail.com">lifestylefashion @gmail.com</a></p>
                         </div>
                     </div>
                 </div>
