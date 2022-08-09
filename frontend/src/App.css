@@ -651,6 +651,9 @@ nav {
   nav {
     background-color: white;
   }
+  .slide .content {
+    left: -775px;
+  }
   .slide.current .content {
     z-index: 1;
   }
@@ -673,7 +676,8 @@ nav {
   }
 
   .slide {
-    height: 100%;
+    height: 90%;
+    top: 50px;
   }
 
   .ShopNow{
@@ -689,7 +693,8 @@ nav {
     opacity: 0;
   }
   .slide:first-child {
-    background: url("product2media.png") no-repeat center top/cover;
+    /*background: url("product2media.png") no-repeat center top/cover;*/
+    background-position: right;
     background-size: 100% 100%;
 
   }
@@ -714,22 +719,27 @@ nav {
   .slide .titleslider {
     left: 220px;
     font-size: 12px;
+    top: -600px;
+  }
+  .slide .subtitleslider {
+top: -630px;
   }
   .slide.current .titleslider {
     font-size: 15px;
     transform: translateY(770px);
+    left:70px;
   }
   .slide:first-child .titleslider {
-    left: 220px;
+    left: 70px;
   }
 
   .slide.current .subtitleslider {
     font-size: 12px;
-    left: 220px;
+    left: 70px;
     transform: translateY(830px);
   }
   .slide:first-child .subtitleslider {
-    left: 220px;
+    left: 70px;
   }
   .slide.current .content {
     transform: translateX(840px);
