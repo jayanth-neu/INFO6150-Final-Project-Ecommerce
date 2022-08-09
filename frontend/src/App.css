@@ -378,13 +378,13 @@ nav {
   right: 0;
 }
 .cardscg:first-child {
-  background: url("https://i.imgur.com/ugsxgsY.jpg") no-repeat center top/cover;
+  background: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSpJY6EKl1hITMzVkPVzX3xBcRUKYgYbrAdD3uHGMOdN_OiUOgq_hC8w08O7jOJ8hJtypk&usqp=CAU") no-repeat center top/cover;
 }
 .cardscg:nth-child(2) {
-  background: url("https://i.imgur.com/roN4Tqt.jpg") no-repeat center top/cover;
+  background: url("https://img.freepik.com/free-photo/reporter-taking-photo-guy-outdoors-blue-sky-background-vintage-equipment-blogger-shooting-vlog_474717-241.jpg") no-repeat center top/cover;
 }
 .cardscg:nth-child(3) {
-  background: url("./img1.jpg") no-repeat center top/cover;
+  background: url("https://thumbs.dreamstime.com/b/cosmetic-bag-makeup-beauty-products-blue-background-copy-space-top-view-make-up-brush-lipstick-mascara-eyeshadow-172656833.jpg") no-repeat center top/cover;
 }
 
 /* --- CgDiv ----*/
