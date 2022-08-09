@@ -378,13 +378,13 @@ nav {
   right: 0;
 }
 .cardscg:first-child {
-  background: url("https://i.imgur.com/ugsxgsY.jpg") no-repeat center top/cover;
+  background: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSpJY6EKl1hITMzVkPVzX3xBcRUKYgYbrAdD3uHGMOdN_OiUOgq_hC8w08O7jOJ8hJtypk&usqp=CAU") no-repeat center top/cover;
 }
 .cardscg:nth-child(2) {
-  background: url("https://i.imgur.com/roN4Tqt.jpg") no-repeat center top/cover;
+  background: url("https://img.freepik.com/free-photo/reporter-taking-photo-guy-outdoors-blue-sky-background-vintage-equipment-blogger-shooting-vlog_474717-241.jpg") no-repeat center top/cover;
 }
 .cardscg:nth-child(3) {
-  background: url("./img1.jpg") no-repeat center top/cover;
+  background: url("https://thumbs.dreamstime.com/b/cosmetic-bag-makeup-beauty-products-blue-background-copy-space-top-view-make-up-brush-lipstick-mascara-eyeshadow-172656833.jpg") no-repeat center top/cover;
 }
 
 /* --- CgDiv ----*/
@@ -668,6 +668,20 @@ nav {
   }
   .slider {
     z-index: 0;
+    height: 400px;
+  }
+
+  .slide {
+    height: 100%;
+  }
+
+  .ShopNow{
+    font-size: 12px;
+    width: 100px;
+    margin-top: 200px;
+  }
+  .content{
+    margin-top: 200px;
   }
 
   .navLinks li {
@@ -675,44 +689,49 @@ nav {
   }
   .slide:first-child {
     background: url("product2media.png") no-repeat center top/cover;
+    background-size: 100% 100%;
+
   }
   .slide:nth-child(2) {
     /* position: absolute; */
     background-position: right;
+    background-size: 100% 100%;
+
   }
   .slide:nth-child(3) {
     /* position: absolute; */
-    background-position: bottom 10px right -100px;
+    background-position: bottom 10px;
+    background-size: 100% 100%;
+
   }
   .slide:nth-child(4) {
     /* position: absolute; */
     background-position: right;
+    background-size: 100% 100%;
+
   }
   .slide .titleslider {
     left: 220px;
+    font-size: 12px;
   }
   .slide.current .titleslider {
-    font-size: 26px;
+    font-size: 15px;
     transform: translateY(770px);
   }
   .slide:first-child .titleslider {
     left: 220px;
-    font-size: 38px;
   }
 
   .slide.current .subtitleslider {
-    font-size: 20px;
+    font-size: 12px;
     left: 220px;
     transform: translateY(830px);
-    top: -620px;
   }
   .slide:first-child .subtitleslider {
     left: 220px;
-    top: -540px;
   }
   .slide.current .content {
     transform: translateX(840px);
-    bottom: 200px;
   }
   .logo {
     /* position: absolute; */
