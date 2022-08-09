@@ -67,7 +67,7 @@ const Checkout = ({ history }) => {
                     United States of America
                   </option>
                   <option value="India">India</option>
-                  <option value="Spain">Spain</option>
+                  <option value="Canada">Canada</option>
                   <option value="Argentina">Argentina</option>
                 </Select>
               </Stack>

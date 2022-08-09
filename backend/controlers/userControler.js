@@ -30,7 +30,6 @@ const authUser = asyncHandler(async (req, res) => {
 // @access Public
 const registerUser = asyncHandler(async (req, res) => {
   const { name, email, password } = req.body;
-  console.log("Hi");
 
   const userExists = await User.findOne({ email });
 
@@ -88,9 +87,6 @@ const registerUser = asyncHandler(async (req, res) => {
     throw new Error(
       "Password should contain 8 characters with at least one letter, one number and one special character"
     );
-    // alert(
-    //   "Password should contain 8 characters with at least one letter, one number and one special character"
-    // );
   }
   if (isEmail && isPassword) {
     userCreate();
