@@ -18,29 +18,24 @@ Here is a Demo : [Demo](https://lifestyle-fashion.herokuapp.com/)
 
 If you are logged in as an admin a button in navbar will show up which gives you controll on your products,users and orders.
 
-- The button :
-<img width = "800" src="https://i.imgur.com/a7YFo86.png"/> 
+- The Admin control : This consists of USER,PRODUCTS, AND ORDERS where the adding or editing functions can be performed.
 <img width="920" alt="image" src="https://user-images.githubusercontent.com/58925620/183937516-4859112f-072e-4646-a8c4-8f39a50cbc21.png">
 
+- Products : Can View the list of the products.
+<img width="914" alt="image" src="https://user-images.githubusercontent.com/58925620/183937768-c0c0e199-b65b-4c86-a7d0-2910b8efa04d.png">
 
-- Products :
-<img width = "800" src="https://i.imgur.com/AMrzaZW.png"/>
+- Add or Edit : Can edit or add the products to the list.
+<img width="911" alt="image" src="https://user-images.githubusercontent.com/58925620/183937944-974a913c-3c6c-4496-8fb7-b69f9a070c9a.png">
 
-- Add or Edit :
-<img width = "300" src="https://i.imgur.com/p725woy.png"/>
-<img width = "300" src="https://i.imgur.com/80E5x6p.png"/>
+- Users : Can view list of users.
+<img width="882" alt="image" src="https://user-images.githubusercontent.com/58925620/183938012-62647c23-bfd4-48b9-8dce-53e200156f39.png">
 
-- Users :
-<img width = "800" src="https://i.imgur.com/sCdikSM.png"/>  
+- Edit User : Can edit the users.
+<img width="888" alt="image" src="https://user-images.githubusercontent.com/58925620/183938073-fa625610-fd26-4c7b-a59c-6fdc7ce03c22.png">
 
-- Edit :
-<img width = "300" src="https://i.imgur.com/U7LXWm0.png"/>
+- Orders : Can keep track of the orders placed by the users.
+<img width="908" alt="image" src="https://user-images.githubusercontent.com/58925620/183938111-464d8ab7-44c8-4032-be90-7b8b17957eba.png">
 
-- Orders :
-<img width = "800" src="https://i.imgur.com/wyyvpYQ.png"/>
-
-- After clicking on details you can deliver the order if its paid :
-<img width = "800" src="https://i.imgur.com/Q9mX0X5.png"/>
 
 
 
