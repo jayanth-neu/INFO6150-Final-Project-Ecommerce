@@ -1,4 +1,4 @@
-# Fashion E-Commerce Using MERN STACK
+# Fashion E-Commerce Website Using MERN STACK
 
 
 #### The main objective of this project was to build an E-commerce website that handles both sides client and admin using the next technologies :  
