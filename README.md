@@ -6,13 +6,17 @@
 
 #### The main object behind this projet was to build an Ecommerce website that handles both sides client and admin using the next technologies :  
 
- 1. Mongo Db  
- 2. Expressjs  
- 3. Reactjs  
- 4. Nodejs  
- 5. Chakra Ui  
- 6. Redux  
- 7. Heroku 
+ 1. HTML
+ 2. CSS
+ 3. JavaScript
+ 4. Bootstrap
+ 5. MongoDB Atlas
+ 6. React JS
+ 7. Express JS
+ 8. Node JS
+ 9. Redux 
+ 10. Chakra UI
+ 11. Heroku 
 
 Here is a Demo : [Demo](https://lifestyle-fashion.herokuapp.com/)
 
