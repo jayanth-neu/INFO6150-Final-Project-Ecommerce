@@ -4,7 +4,7 @@
 
 
 
-#### The main object behind this projet was to build an Ecommerce website that handles both sides client and admin using the next technologies :  
+#### The main object behind this project was to build an Ecommerce website that handles both sides client and admin using the next technologies :  
 
  1. HTML
  2. CSS
