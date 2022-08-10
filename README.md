@@ -12,13 +12,16 @@
  4. Nodejs  
  5. Chakra Ui  
  6. Redux  
+ 7. Heroku 
 
 Here is a Demo : [Demo](https://lifestyle-fashion.herokuapp.com/)
 
 If you are logged in as an admin a button in navbar will show up which gives you controll on your products,users and orders.
 
 - The button :
-<img width = "800" src="https://i.imgur.com/a7YFo86.png"/>  
+<img width = "800" src="https://i.imgur.com/a7YFo86.png"/> 
+<img width="920" alt="image" src="https://user-images.githubusercontent.com/58925620/183937516-4859112f-072e-4646-a8c4-8f39a50cbc21.png">
+
 
 - Products :
 <img width = "800" src="https://i.imgur.com/AMrzaZW.png"/>
