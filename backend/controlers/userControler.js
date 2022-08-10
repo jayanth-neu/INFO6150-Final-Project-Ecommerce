@@ -30,7 +30,6 @@ const authUser = asyncHandler(async (req, res) => {
 // @access Public
 const registerUser = asyncHandler(async (req, res) => {
   const { name, email, password } = req.body;
-  console.log("Hi");
 
   const userExists = await User.findOne({ email });
 
@@ -40,6 +39,15 @@ const registerUser = asyncHandler(async (req, res) => {
   }
   let isEmail = false;
   let isPassword = false;
+  let isName = false;
+  function ValidateName(name) {
+    console.log("Name=" + name);
+    if (name == "") {
+      isName = false;
+    } else {
+      isName = true;
+    }
+  }
 
   function ValidateEmail(email, password) {
     console.log("In validate");
@@ -56,6 +64,7 @@ const registerUser = asyncHandler(async (req, res) => {
   }
 
   ValidateEmail(email, password);
+  ValidateName(name);
 
   async function userCreate() {
     const user = await User.create({
@@ -92,7 +101,11 @@ const registerUser = asyncHandler(async (req, res) => {
     //   "Password should contain 8 characters with at least one letter, one number and one special character"
     // );
   }
-  if (isEmail && isPassword) {
+  if (isName == false) {
+    res.status(400);
+    throw new Error("Please enter a name");
+  }
+  if (isEmail && isPassword && isName) {
     userCreate();
   }
 });

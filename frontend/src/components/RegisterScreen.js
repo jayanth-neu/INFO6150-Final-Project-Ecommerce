@@ -41,6 +41,7 @@ const RegisterScreen = ({location, history}) => {
         setMessage('Password do not match')
     }
     else{
+      setMessage("");
         dispatch(register(name, email, password))
     }
     
@@ -71,92 +72,88 @@ const RegisterScreen = ({location, history}) => {
 
 
 
-    return (
-        <div className="registerSc">
-          <Helmet>
-            <title>
-              Register
-            </title>
-          </Helmet>
-          	<Image className="wave" src={wave} />
-
-            <div className="containera">
-              
-		<div className="imga">
-			<Image src={addUs} />
-		</div>
-		<div className="login-content">
-			<form onSubmit={submitHandler}>
-				<Image src={avatarRegister} />
-				{error && <h4>{error}</h4>}
-                
-
-
-
-                <div className="input-div zz">
-                       <div className="i">
-           		   		<i className="fas fa-user"></i>
-           		   </div>
-                   <div className="div">
-           		   		
-           		   		<input type="text" value={name} className="inputa" placeholder="Enter name"  onChange={(e) => setName(e.target.value)}/>
-           		   </div>
-
-           		   
-           		</div>
-
-
-
-
-           		<div className="input-div one">
-                       
-
-           		   <div className="i">
-           		   		<i className="fas fa-envelope"></i>
-           		   </div>
-           		   <div className="div">
-           		   		
-           		   		<input type="text" value={email} className="inputa" placeholder="Enter email" onChange={(e) => setEmail(e.target.value)} />
-           		   </div>
-           		</div>
-
-
-
-                
-
-           		<div className="input-div pass">
-           		   <div className="i"> 
-           		    	<i className="fas fa-lock"></i>
-           		   </div>
-           		   <div className="div">
-           		    	
-           		    	<input type="password" value={password} className="inputa" placeholder="Enter password" onChange={(e) => setPassword(e.target.value)}/>
-            	   </div>
-            	</div>
-
-
-                <div className="input-div passconf">
-           		   <div className="i"> 
-           		    	<i className="fas fa-lock"></i>
-           		   </div>
-           		   <div className="div">
-           		    	
-           		    	<input type="password" value={confirmPassword} className="inputa" placeholder="Confirm password" onChange={(e) => setConfirmPassword(e.target.value)}/>
-            	   </div>
-            	</div>
-                {message && <h4>{message}</h4>}
-                <input type="submit" className="btna2" value="Sign up"/>
-                <br />
-                Have an Account? {' '}
-            	<Link to={redirect ? `/login?redirect=${redirect}` : '/login'}>Login</Link>
-            	
-                
-              
-            </form>
+  return (
+    <div className="registerSc">
+      <Helmet>
+        <title>Register</title>
+      </Helmet>
+      <Image className="wave" src={wave} />
+      <div className="containera">
+        <div className="imga">
+          <Image src={addUs} />
         </div>
+        <div className="login-content">
+          <form onSubmit={submitHandler}>
+            <Image src={avatarRegister} />
+            {error && <h4>{error}</h4>}
+            <div className="input-div zz">
+              <div className="i">
+                <i className="fas fa-user"></i>
+              </div>
+              <div className="div">
+                <input
+                  type="text"
+                  value={name}
+                  className="inputa"
+                  placeholder="Enter name"
+                  onChange={(e) => setName(e.target.value)}
+                />
+              </div>
+            </div>
+            <div className="input-div one">
+              <div className="i">
+                <i className="fas fa-envelope"></i>
+              </div>
+              <div className="div">
+                <input
+                  type="text"
+                  value={email}
+                  className="inputa"
+                  placeholder="Enter email"
+                  onChange={(e) => setEmail(e.target.value)}
+                />
+              </div>
+            </div>
+            <div className="input-div pass">
+              <div className="i">
+                <i className="fas fa-lock"></i>
+              </div>
+              <div className="div">
+                <input
+                  type="password"
+                  value={password}
+                  className="inputa"
+                  placeholder="Enter password"
+                  onChange={(e) => setPassword(e.target.value)}
+                />
+              </div>
+            </div>
+            <div className="input-div passconf">
+              <div className="i">
+                <i className="fas fa-lock"></i>
+              </div>
+              <div className="div">
+                <input
+                  type="password"
+                  value={confirmPassword}
+                  className="inputa"
+                  placeholder="Confirm password"
+                  onChange={(e) => setConfirmPassword(e.target.value)}
+                />
+              </div>
+            </div>
+            {message && <h4>{message}</h4>}
+            <input type="submit" className="btna2" value="Sign up" />
+            <br />
+            Have an Account?{" "}
+            <Link to={redirect ? `/login?redirect=${redirect}` : "/login"}>
+              Login
+            </Link>
+          </form>
+        </div>
+      </div>
     </div>
-        </div>
-    )
-}
+  );
+};
 
 export default RegisterScreen
