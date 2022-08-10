@@ -82,7 +82,7 @@ const Contactus = () => {
                         <div className="iconCtn"><GiPositionMarker opacity="0.8" /></div>
                         <div className="adressCtn">
                             <h3> Address</h3>
-                            <p className="infoCtn">124 Brook street, Brookline, Boston, MA, 02443</p>
+                            <p className="infoCtn">124 Brook street, Brookline, Boston, MA, 02116</p>
                         </div>
                     </div>
                     <div className="box">

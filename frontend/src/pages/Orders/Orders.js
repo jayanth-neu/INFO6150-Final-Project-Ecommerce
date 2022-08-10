@@ -51,7 +51,7 @@ const Orders = ({history}) => {
                             <Th textAlign = 'center' w = '20%'>Date</Th>
                             <Th textAlign = 'center' w = '5%'>TOTAL</Th>
                             <Th textAlign = 'center' w = '10%'>PAID</Th>
-                            <Th textAlign = 'center' w = '10%'>Deliverd</Th>
+                            <Th textAlign = 'center' w = '10%'>DELIVERED</Th>
 
                         </Tr>
                       </Thead>

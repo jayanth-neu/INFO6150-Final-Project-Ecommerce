@@ -51,7 +51,7 @@ const Placeorder = ({history}) => {
                     <h2>Shipping</h2>
                     <p>
                         <strong>Address: </strong>
-                        {cart.shippingAddress.address}, {cart.shippingAddress.city}, {cart.shippingAddress.cp}, {cart.shippingAddress.country}
+                        {cart.shippingAddress.address}, {cart.shippingAddress.city}, {cart.shippingAddress.country}
                     </p>
                 </div>
                       <hr />

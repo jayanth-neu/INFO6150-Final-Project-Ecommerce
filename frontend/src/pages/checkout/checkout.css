@@ -10,6 +10,7 @@
   height: fit-content;
   opacity: 1;
   transition: all 0.5s linear;
+  display:none;
 }
 .info-check {
   margin: 15px 30px;
@@ -38,6 +39,7 @@
   grid-column-end: 3;
   grid-row-start: 1;
   grid-row-end: 4;
+  margin-top: 30px;
 }
 .your-products {
   grid-column-start: 3;
@@ -58,7 +60,7 @@
   display: flex;
 }
 .accept-cards-imgs {
-  display: flex;
+  display: none;
 }
 .accept-cards-imgs img {
   height: 25px;
@@ -107,7 +109,7 @@
 .cart-summ {
   display: inline-block;
   border: 1px solid black;
-  width: 400px;
+  width: 250px;
   padding: 10px 20px;
 }
 

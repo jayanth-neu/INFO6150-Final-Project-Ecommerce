@@ -4,7 +4,7 @@
 }
 .hr {
   border-bottom: 2px rgb(163, 163, 163) solid;
-  width: 300px;
+  width: 250px;
 }
 .paid {
   color: rgb(29, 223, 45);
@@ -17,7 +17,7 @@
 .paypalbuttons {
   margin-top: 12px;
   z-index: -2;
-  width: 400px;
+  width: 250px;
 }
 .buttonsp {
   z-index: -2;

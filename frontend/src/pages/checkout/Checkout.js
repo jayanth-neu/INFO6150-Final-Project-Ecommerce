@@ -50,10 +50,10 @@ const Checkout = ({history}) => {
                         <Stack spacing={3}>
                             
                             <Select variant="flushed" onChange = {(e) => setCountry(e.target.value)} >
-                                <option value="Maroc">Maroc</option>
-                                <option value="Algerie">Algerie</option>
-                                <option value="France">France</option>
-                                <option value="Espagne">Espagne</option>
+                                <option value="USA">USA</option>
+                                <option value="Canada">Canada</option>
+                                <option value="India">India</option>
+                                <option value="China">China</option>
                             </Select>
                             
                         </Stack>
@@ -68,7 +68,7 @@ const Checkout = ({history}) => {
                     <div className="payment-check">
                         <h1>Payment Method</h1>
                        <div className='displayNode'></div>
-                        <input onChange = {(e)=> {setcarddetails(true) ; setPayment('card')}} checked = {carddetails}  type="radio" name="payment" id="card"/><label for="card" className="this-label">Credit Card</label>
+                        
                         <div className="accept-cards-imgs">
                             <Image src="https://i.imgur.com/AHCoUZO.png" alt="visa"/>
                             <Image src="https://i.imgur.com/l8OAGyo.png" alt="master"/>
@@ -90,7 +90,7 @@ const Checkout = ({history}) => {
                         </div>
                         </div>
 
-                        <input onChange = {(e)=> {setcarddetails(false) ; setPayment('paypal')}} type="radio" name="payment" id="paypal"/><label for="paypal" className="this-label"> Paypal</label>
+                        <input onChange = {(e)=> {setcarddetails(false) ; setPayment('paypal')}} type="radio" name="payment" id="paypal" checked/><label for="paypal" className="this-label"></label>
                         <Image src= 'https://i.imgur.com/W5vSLzb.png' alt="paypal" width="120px" height="40px"/>
                         <div class="confirm">
                           <input type="submit" className="confirm-check" value="Place to order"/>
