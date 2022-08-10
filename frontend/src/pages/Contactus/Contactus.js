@@ -12,6 +12,7 @@ import { Input, InputGroup, InputLeftElement, Textarea, Button } from "@chakra-u
 import { BsEnvelope, GiPositionMarker, HiOutlinePhone } from 'react-icons/all'
 import './contactuscss.css'
 import { Form } from "react-bootstrap";
+
 const Contactus = () => {
     const [email, setemail] = useState('')
     const [body, setbody] = useState('')
@@ -52,6 +53,7 @@ const Contactus = () => {
         };
 
     return (
+        
         <div className="contactUs">
             <Helmet>
                 <title>Contact</title>
@@ -102,6 +104,23 @@ const Contactus = () => {
                 </div>
             </div>
         </div>
+        
     )
+
+
+
+    
+
+
+
+
+
 };
+
+
+
+
+
+
+
 export default Contactus;

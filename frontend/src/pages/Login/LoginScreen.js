@@ -101,9 +101,7 @@ const LoginScreen = ({ location, history }) => {
 
             <div className="div-forgot">
               <span></span>
-              <Link className="text-forgot" to="/forgot">
-                Forgot Password?
-              </Link>
+
             </div>
             <Link
               className="createAcc"

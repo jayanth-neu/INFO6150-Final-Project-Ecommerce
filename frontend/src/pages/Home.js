@@ -14,6 +14,7 @@ const Home = () => {
         <Helmet>
             <title>Lifestyle Fashion</title>
         </Helmet>
+        
              <div>
                 <Slider/>
                  <div className="cards">
@@ -21,11 +22,17 @@ const Home = () => {
                          <Cardscg title='Men'/>
                          <Cardscg title='Accessories'/>                
                  </div>
+                 
+                 
                 <CgDiv/>
+
                
         </div>
         </>
     )
 }
+
+
+
 
 export default Home
