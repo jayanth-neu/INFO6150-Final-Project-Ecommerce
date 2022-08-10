@@ -53,7 +53,7 @@ footer p {
   font-size: 16px;
   text-transform: uppercase;
   padding: 10px 40px;
-  color: white;
+  color: black;
   outline-style: none;
   transition: all 0.5s Linear;
 }
@@ -105,7 +105,7 @@ footer .paragraphFooter {
   height: 30px;
   border-radius: 10%;
   margin-right: 3px;
-  cursor:context-menu;
+  cursor:pointer;
 }
 
 @media screen and (max-width: 768px) {
