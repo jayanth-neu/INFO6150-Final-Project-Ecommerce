@@ -1,10 +1,7 @@
-# Fashion E-Commerce
-[![Generic badge](https://img.shields.io/badge/Responsive-Yes-<COLOR>.svg)](https://eastclothing.herokuapp.com/) 
-## E-Commerce Website Using MERN STACK. 
+# Fashion E-Commerce Using MERN STACK
 
 
-
-#### The main object behind this project was to build an Ecommerce website that handles both sides client and admin using the next technologies :  
+#### The main objective of this project was to build an E-commerce website that handles both sides client and admin using the next technologies :  
 
  1. HTML
  2. CSS
@@ -16,13 +13,13 @@
  8. Node JS
  9. Redux 
  10. Chakra UI
- 11. Heroku 
+ 11. Heroku Deployment
 
 Here is a Demo : [Demo](https://lifestyle-fashion.herokuapp.com/)
 
-If you are logged in as an admin a button in navbar will show up which gives you control on your products,users and orders.
+If you are sign-in as an admin a button in navbar will show up which gives you control on your products, users and orders.
 
-- The Admin control : This consists of USERS, PRODUCTS, AND ORDERS where the adding or editing functions can be performed.
+- The Admin control : This consists of USERS, PRODUCTS, AND ORDERS where create and edit operations can be performed.
 <img width="882" alt="image" src="https://user-images.githubusercontent.com/58925620/183937516-4859112f-072e-4646-a8c4-8f39a50cbc21.png">
 
 - Products : Can View the list of the products.
@@ -54,23 +51,23 @@ If you are logged in as an admin a button in navbar will show up which gives you
 - Shop Page: This page consists of all products that a user can look through for buying a product.
 <img width="882" alt="image" src="https://user-images.githubusercontent.com/58925620/183942373-416ef629-57b1-43df-8933-3de418ce4f37.png">
 
-- Contact Us Page: This page helps user to contaact the admin in case of any queries.
+- Contact Us Page: This page helps user to contact the support team in case of any queries.
 <img width="882" alt="image" src="https://user-images.githubusercontent.com/58925620/183942608-3cfcf940-a0ee-4e43-bfb1-e6bdb0eb5deb.png">
 
-- About Us Page: This page gives the brief description of the website.
+- About Us Page: This page gives a brief description of the website.
 <img width="882" alt="image" src="https://user-images.githubusercontent.com/58925620/183942779-3b16ad77-ec5e-4498-9a0a-c49b61ca87a0.png">
 
-- Cart Page: This page helps users to pile up what they want to buy from the website and then simply checkout by paying online.
+- Cart Page: This page displays all the products which are added to the cart by the user.
 <img width="882" alt="image" src="https://user-images.githubusercontent.com/58925620/183943111-579d6f61-e4b5-42d3-89d8-12201244eefd.png">
 
-- Payment Page and Shipping Page: This page shows the payment details and Billing address after placing a order
+- Checkout and Payment Page: This page shows the payment details and Billing address after placing a order
 <img width="882" alt="image" src="https://user-images.githubusercontent.com/58925620/183943476-11c57e67-c543-4c06-9f5a-d93de2564666.png">
 <img width="882" alt="image" src="https://user-images.githubusercontent.com/58925620/183943510-32b9542b-7c2c-4ada-8fb4-e10646bacbc4.png">
 
-- MongoDb Database: Database Connectivity of Admin Control
+- MongoDb Database: For CRUD operaions of users, products and orders
 <img width="882" alt="image" src="https://user-images.githubusercontent.com/58925620/183945964-79e8b617-801c-432e-9ea2-b3574d41b866.png">
 
-### The follwing are the different components in building the website:
+### The following are the different components in building the website:
 
 1. Login Form: Here the input form type is used for the login form.
 2. Sigup Form: Here the input form type is used for the Signup form.
@@ -84,9 +81,4 @@ If you are logged in as an admin a button in navbar will show up which gives you
 10. Footer: In footer section different subcomponents and their easy access to the link are provided.
 11. NewsLetter: This helps the user for latest alerts regarding the website.
 12. Payment gateway: Used PayPal api for PayPal payment method and also payment method through credit card and debit card is also provided. 
-
-
-
-
-
 
