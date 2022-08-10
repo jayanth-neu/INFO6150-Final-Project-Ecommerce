@@ -20,9 +20,9 @@
 
 Here is a Demo : [Demo](https://lifestyle-fashion.herokuapp.com/)
 
-If you are logged in as an admin a button in navbar will show up which gives you controll on your products,users and orders.
+If you are logged in as an admin a button in navbar will show up which gives you control on your products,users and orders.
 
-- The Admin control : This consists of USER,PRODUCTS, AND ORDERS where the adding or editing functions can be performed.
+- The Admin control : This consists of USERS, PRODUCTS, AND ORDERS where the adding or editing functions can be performed.
 <img width="882" alt="image" src="https://user-images.githubusercontent.com/58925620/183937516-4859112f-072e-4646-a8c4-8f39a50cbc21.png">
 
 - Products : Can View the list of the products.
