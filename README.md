@@ -40,7 +40,7 @@ If you are logged in as an admin a button in navbar will show up which gives you
 - Orders : Can keep track of the orders placed by the users.
 <img width="882" alt="image" src="https://user-images.githubusercontent.com/58925620/183938111-464d8ab7-44c8-4032-be90-7b8b17957eba.png">
 
-The following are the different pages in the website:-
+### The following are the different pages in the website:-
 
 - Login page: This page helps user to login into the website using the credentials.
 <img width="882" alt="image" src="https://user-images.githubusercontent.com/58925620/183940481-d8e85bac-1244-426c-bc70-463b9bc8e8cc.png">
@@ -63,10 +63,27 @@ The following are the different pages in the website:-
 - Cart Page: This page helps users to pile up what they want to buy from the website and then simply checkout by paying online.
 <img width="882" alt="image" src="https://user-images.githubusercontent.com/58925620/183943111-579d6f61-e4b5-42d3-89d8-12201244eefd.png">
 
-- Payment Page and Shipping Page: This page shows the payment details and Billing address after placing a oorder
+- Payment Page and Shipping Page: This page shows the payment details and Billing address after placing a order
 <img width="882" alt="image" src="https://user-images.githubusercontent.com/58925620/183943476-11c57e67-c543-4c06-9f5a-d93de2564666.png">
 <img width="882" alt="image" src="https://user-images.githubusercontent.com/58925620/183943510-32b9542b-7c2c-4ada-8fb4-e10646bacbc4.png">
 
+- MongoDb Database: Database Connectivity of Admin Control
+<img width="882" alt="image" src="https://user-images.githubusercontent.com/58925620/183945964-79e8b617-801c-432e-9ea2-b3574d41b866.png">
+
+### The follwing are the different components in building the website:
+
+1. Login Form: Here the input form type is used for the login form.
+2. Sigup Form: Here the input form type is used for the Signup form.
+3. NavBar: a user interface element within a webpage that contains links to other sections of the website.
+4. Icons: Used different icons for multiple use cases.
+5. Card Components: Used for different products show case and accessing the different sections easily.
+6. Buttons: Used different buttons like Admin, View Details, etc. for different fuctionalities.
+7. Contact Form: Used contact form and also used different the contact icons.
+8. Image Card: Image card used for cleaner look.
+9. Validations: Many validations are done things like User name validatiion, Email validations etc.
+10. Footer: In footer section different subcomponents and their easy access to the link are provided.
+11. NewsLetter: This helps the user for latest alerts regarding the website.
+12. Payment gateway: Used PayPal api for PayPal payment method and also payment method through credit card and debit card is also provided. 
 
 
 
