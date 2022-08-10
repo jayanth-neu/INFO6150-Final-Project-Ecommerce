@@ -48,5 +48,28 @@ The following are the different pages in the website:-
 - Signup Page: This page helps user to create a account into the website.
 <img width="882" alt="image" src="https://user-images.githubusercontent.com/58925620/183940697-d69bb5f0-b220-4365-bc76-bdb07a03212a.png">
 
+- Home Page: This is the main page of the website.
+<img width="882" alt="image" src="https://user-images.githubusercontent.com/58925620/183941145-e40acd23-85aa-484e-9aed-d13537f6d288.png">
+
+- Shop Page: This page consists of all products that a user can look through for buying a product.
+<img width="882" alt="image" src="https://user-images.githubusercontent.com/58925620/183942373-416ef629-57b1-43df-8933-3de418ce4f37.png">
+
+- Contact Us Page: This page helps user to contaact the admin in case of any queries.
+<img width="882" alt="image" src="https://user-images.githubusercontent.com/58925620/183942608-3cfcf940-a0ee-4e43-bfb1-e6bdb0eb5deb.png">
+
+- About Us Page: This page gives the brief description of the website.
+<img width="882" alt="image" src="https://user-images.githubusercontent.com/58925620/183942779-3b16ad77-ec5e-4498-9a0a-c49b61ca87a0.png">
+
+- Cart Page: This page helps users to pile up what they want to buy from the website and then simply checkout by paying online.
+<img width="882" alt="image" src="https://user-images.githubusercontent.com/58925620/183943111-579d6f61-e4b5-42d3-89d8-12201244eefd.png">
+
+- Payment Page and Shipping Page: This page shows the payment details and Billing address after placing a oorder
+<img width="882" alt="image" src="https://user-images.githubusercontent.com/58925620/183943476-11c57e67-c543-4c06-9f5a-d93de2564666.png">
+<img width="882" alt="image" src="https://user-images.githubusercontent.com/58925620/183943510-32b9542b-7c2c-4ada-8fb4-e10646bacbc4.png">
+
+
+
+
+
 
 
