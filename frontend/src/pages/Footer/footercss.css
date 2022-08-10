@@ -19,7 +19,7 @@ footer h1 {
   margin: 35px 0px;
   font-size: 19px;
   font-weight: 700;
-  color: #FFDB58;
+  color: rgb(3, 160, 160);
 }
 
 footer li {
@@ -122,6 +122,10 @@ footer .paragraphFooter {
     margin: 0 30px;
   }
   footer div {
-    margin: 0 30px;
+    margin: 0 30px 20px 30px;
+  }
+
+  footer .footerGetInTouch {
+    margin: 0 30px 0px 30px;
   }
 }
