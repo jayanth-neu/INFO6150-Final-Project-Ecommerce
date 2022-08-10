@@ -4,7 +4,7 @@
 
 
 
-#### The main objetif behind this projet was to build an Ecommerce website that handles both sides client and admin using the next technologies :  
+#### The main object behind this projet was to build an Ecommerce website that handles both sides client and admin using the next technologies :  
 
  1. Mongo Db  
  2. Expressjs  
@@ -13,7 +13,7 @@
  5. Chakra Ui  
  6. Redux  
 
-Here is a Demo : [Demo](https://eastclothing.herokuapp.com/)
+Here is a Demo : [Demo](https://lifestyle-fashion.herokuapp.com/)
 
 If you are logged in as an admin a button in navbar will show up which gives you controll on your products,users and orders.
 
