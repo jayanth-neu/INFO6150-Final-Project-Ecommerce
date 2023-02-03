@@ -15,7 +15,7 @@
  10. Chakra UI
  11. Heroku Deployment
 
-Here is a Demo : [Demo](https://lifestyle-fashion.herokuapp.com/)
+Here is a Demo (Changes in Progress) : [Demo](https://lifestyle-fashion.herokuapp.com/)
 
 If you are sign-in as an admin a button in navbar will show up which gives you control on your products, users and orders.
 
